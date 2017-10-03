@@ -72,7 +72,6 @@ object Generator {
     generateWords(validNumbers)(List.empty)(List.empty)
   }
 
-
   // Generate words combination from number representation.
   def generateWordsCombinationFor(numbers: List[String]): List[String] = {
     val lessThan: List[String] => Boolean = list =>
