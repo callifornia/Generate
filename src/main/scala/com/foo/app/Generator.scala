@@ -3,7 +3,7 @@ package com.foo.app
 import scala.io.Source
 import scala.util.{Failure, Success, Try}
 
-import FooOne._
+import Validation._
 
 object Generator {
 
@@ -95,7 +95,7 @@ object Generator {
   }
 }
 
-object FooOne {
+object Validation {
 
   val emptyResultMsg = "No words combinations found"
 
