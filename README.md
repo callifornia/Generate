@@ -7,4 +7,3 @@
     than right click on `Generator.class -> Run Generator.class`. 
     Enter `"866-5548"` you should see `took-kit, took-lit, tool-kit, tool-lit`
 4. To run tests: goto `src -> test -> scala -> com.foo.app -> GeneratorTest` right click and select `Run GeneratorTest`
-Big-O runtime performance depends on input length (N)
